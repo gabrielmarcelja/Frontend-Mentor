@@ -1,0 +1,17 @@
+@media (min-width: 1300px){
+    /* 
+    background: #F5F5F5
+    branco da div manage: #FFFFFF
+    branco da div faster: #FFFFFF
+    */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #F5F5F5;
+        padding: 60px 100px;
+    }
+    
+}
