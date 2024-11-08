@@ -13,5 +13,245 @@
         background-color: #F5F5F5;
         padding: 60px 100px;
     }
+
+    section#divs_container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
     
+    /* DIV */
+     div#create_div{
+    position: absolute;
+        left: 0px;
+        top: 0px;
+        display: block;
+        width: 15vw;
+        height: 40vh;
+        border-radius: 5px;
+        background-color: hsl(31, 66%, 93%);
+        padding: 50px 20px 0px 20px
+    }
+    
+    span.purple_text{
+        color: hsl(256, 67%, 59%);
+        display: block;
+    }
+
+    p.create_text{
+        color: black;
+        font-weight: bold;
+        font-size: 32px;
+        text-align: left;
+    }
+
+    img.create_image{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* DIV */
+
+
+    
+    div#social_div{
+        position: absolute;
+        left: 20vw;
+        top: 0px; 
+        background-color: hsl(256, 67%, 59%);
+        width: 40vw;
+        height: 30vh;
+        padding: 50px;
+        border-radius: 10px;
+    }
+
+    p.social_text{
+        color: white;
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    span.orange_text{
+        color: hsl(39, 100%, 71%);
+    }
+
+    img.star_img{
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+
+    p.social_text_t{
+        text-align: center;
+        color: rgb(202, 202, 202);
+        margin-top: 10px;
+    }
+
+    /* DIV */
+
+    div#schedule_div{
+        position: absolute;
+        left: 63vw;
+        top: 0px; 
+        background-color: hsl(254, 88%, 90%);
+        height: 60vh;
+        width: 20vw;
+        border-radius: 10px;
+        padding: 40px 0px 40px 30px;
+    }
+
+    span.span_brak{
+    display: block;
+    }
+
+    p.schedule_text{
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    img#schedule_img{
+        display: block;
+        text-align: right;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    p.shedule_text_tt{
+        display: block;
+        width: 100%;
+        padding-right: 20px;
+        color: black;
+        font-size: 18px;
+    }
+
+    /* DIV */
+
+    div#write_div{
+        position: absolute;
+        left: 0;
+        top: 42vh; 
+        background-color: hsl(39, 100%, 71%);
+        border-radius: 10px;
+        width: 15vw;
+        height: 40vh;
+        padding: 20px;
+    }
+
+    p.write_text{
+        color: black;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    img.write_imag{
+        width: 100%;
+    }
+
+    /* DIV */
+
+    div#multacc_div{
+        position: absolute;
+        left: 20vw;
+        top: 32vh; 
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 18vw;
+        height: 25vh;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    img#multacc_img{
+        width: 150%;
+    }
+
+    p.multacc_text{
+        font-size: 25px;
+        color: black;
+    }
+
+    /* DIV */
+
+    div#maintain_div{
+        position: absolute;
+        left: 42vw;
+        top: 32vh; 
+        background-color: hsl(39, 100%, 71%);
+        width: 18vw;
+        height: 25vh;
+        padding: 20px 20px 0px 20px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    p.maintain_text{
+        color: black;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    img#maintain_img{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    /* DIV */
+
+    div#faster_div{
+        position: absolute;
+        left: 20vw;
+        top: 62vh; 
+        background-color: white;
+        width: 20vw;
+        height: 25vh;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    p.faster_text{
+        font-size: 52px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p.faster_ttext{
+        color: black;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    img.faster_img{
+        width: 80%;
+    }
+
+
+    /* DIV */
+
+    div#grow_div{
+        position: absolute;
+        left: 42vw;
+        top: 62vh; 
+        background-color: hsl(256, 67%, 59%);
+        padding: 20px;
+        width: 40vw;
+        height: 25vh;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    img.grow_img{
+        width: 35%;
+    }
+
+    p.grow_text{
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+    }
 }
