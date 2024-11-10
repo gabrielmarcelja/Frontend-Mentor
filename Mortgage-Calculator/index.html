@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor - Montgage Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section id="main_cont">
+        <article id="calc_cont">
+            <div id="title_container">
+                <p class="titl">Mortgage Calculator</p>
+                <button id="clear_btn">Clear All</button>
+            </div>
+            <form>
+                <div class="form_cont">
+                    <label for="iamount" class="form_lab">Mortgage Amount</label>
+                    <div class="input_cont">
+                        <p class="input_icon">€</p>
+                        <input type="number" id="iamount">
+                    </div>
+                    <!-- TWO INPUT CONTAINER -->
+                    <div class="container_conttwo">
+                        <div class="container_conttwos">
+                            <label for="iterm" class="label_conttwos">Mortgage Term</label>
+                            <div class="inpcont_conttwos">
+                                <input type="number" id="iterm" class="input_conttwos">
+                                <p class="input_icon">years</p>
+                            </div>
+                        </div>
+                        <div class="container_conttwos">
+                            <label for="irate" class="label_conttwos">Interest Rate</label>
+                            <div class="inpcont_conttwos">
+                                <input type="number" id="irate" class="input_conttwos">
+                                <p class="input_icon">%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <label class="form_lab">Mortgage Type</label>
+                    <div class="type_cont">
+                        <div class="radiocont">
+                            <input type="radio" name="typeradio" value="radio_rapay">
+                            <p class="radio_label">Repayment</p>
+                        </div>
+                        <div class="radiocont">
+                            <input type="radio" name="typeradio" value="radio_interest">
+                            <p class="radio_label">Interest Only</p>
+                        </div>
+                    </div>
+                    <button id="calc_btn">
+                        <img src="assets/images/icon-calculator.svg" alt="Calculator icon" class="calc_icon">
+                        <p class="calc_text">Calculate Repayments</p>
+                    </button>
+                </div>
+            </form>
+        </article>
+        <article id="result_cont">
+            <div class="result_main">
+                <img src="assets/images/illustration-empty.svg" alt="Calculator icon" class="result_image">
+                <p class="result_title">Results shown here</p>
+                <p class="result_text">Complete the form and click "calculate repayments" to see what your monthly repayments would be.</p>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
