@@ -15,184 +15,187 @@ body{
     font-family: "Jakarta";
 }
 
-article#calc_cont{
-    padding: 20px;
-}
+@media (max-width: 800px){
 
-div#title_container{
-    margin-bottom: 15px;
-}
-
-p.titl{
-    font-size: 32px;
-    color: black;
-    font-weight: bold;
-}
-
-button#clear_btn{
-    border: none;
-    background-color: white;
-    text-decoration: underline;
-    font-weight: bold;
-    color: hsl(200, 24%, 40%);
-}
-
-/* FIRST INPUT */
-
-label.form_lab{
-    display: block;
-    color: hsl(200, 24%, 40%);
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-div.input_cont{
-    display: flex;
-    margin-bottom: 20px;
-    border: 1px solid hsl(202, 55%, 16%);
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-}
-
-p.input_icon{
-    width: 15%;
-    height: 100%;
-    background-color: hsl(202, 86%, 94%);
-    font-weight: bold;
-    color: hsl(202, 55%, 16%);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-input#iamount{
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 0px 0px 0px 20px;
-    font-size: 18px;
-}
-/* SECOND AND THIRD INPUT */
-
-div.container_conttwos{
-    margin-bottom: 20px;
-}
-
-label.label_conttwos{
-    display: block;
-    color: hsl(200, 24%, 40%);
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-div.inpcont_conttwos{
-    display: flex;
-    border: 1px solid hsl(202, 55%, 16%);
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-}
-
-input.input_conttwos{
-    border: none;
-    outline: none;
-    width: 100%;
-    padding: 0px 0px 0px 20px;
-    color: black;
-    font-size: 18px;
-}
-
-p.input_icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    border-radius: 5px;
-}
-
-p#input_iconfirst{
-    width: 25%;
-}
-
-/* RADIO INPUTS AND CONTAINERS */
-
-div.type_cont{
-    margin-bottom: 20px;
-}
-
-div.radiocont{
-    display: flex;
-    margin-bottom: 10px;
-    width: 100%;
-    border: 1px solid hsl(202, 55%, 16%);
-    height: 40px;
-    border-radius: 5px;
-    align-items: center;
-}
-
-input[type="radio"]{
-    display: block;
-    width: 15%;
-    height: 1.1rem;
-}
-
-p.radio_label{
-    font-weight: bold;
-    color: hsl(202, 55%, 16%);
-}
-
-/* CALC BUTTON */
-
-button#calc_btn{
-    width: 95%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    background-color: hsl(61, 70%, 52%);
-    margin: auto;
-}
-
-p.calc_text{
-    margin-left: 10px;
-    font-weight: bold;
-    font-size: 16px;
-    color: hsl(202, 55%, 16%);
-}
-
-/* OTHER ARTICLE */
-
-article#result_cont{
-    background-color: #133040;
-    display: flex;
-    justify-content: center;
-}
-
-div.result_main{
-    width: 80%;
-    padding: 20px 0px;
-}
-
-img.result_image{
-    display: block;
-    margin: auto;
-    width: 49%;
-}
-
-p.result_title{
-    color: white;
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-p.result_text{
-    color: hsla(202, 87%, 94%, 0.511);
-    text-align: center;
-    font-size: 14px;
+    article#calc_cont{
+        padding: 20px;
+    }
+    
+    div#title_container{
+        margin-bottom: 15px;
+    }
+    
+    p.titl{
+        font-size: 32px;
+        color: black;
+        font-weight: bold;
+    }
+    
+    button#clear_btn{
+        border: none;
+        background-color: white;
+        text-decoration: underline;
+        font-weight: bold;
+        color: hsl(200, 24%, 40%);
+    }
+    
+    /* FIRST INPUT */
+    
+    label.form_lab{
+        display: block;
+        color: hsl(200, 24%, 40%);
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    div.input_cont{
+        display: flex;
+        margin-bottom: 20px;
+        border: 1px solid hsl(202, 55%, 16%);
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    p.input_icon{
+        width: 15%;
+        height: 100%;
+        background-color: hsl(202, 86%, 94%);
+        font-weight: bold;
+        color: hsl(202, 55%, 16%);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    input#iamount{
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 0px 0px 0px 20px;
+        font-size: 18px;
+    }
+    /* SECOND AND THIRD INPUT */
+    
+    div.container_conttwos{
+        margin-bottom: 20px;
+    }
+    
+    label.label_conttwos{
+        display: block;
+        color: hsl(200, 24%, 40%);
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    div.inpcont_conttwos{
+        display: flex;
+        border: 1px solid hsl(202, 55%, 16%);
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    input.input_conttwos{
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 0px 0px 0px 20px;
+        color: black;
+        font-size: 18px;
+    }
+    
+    p.input_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        border-radius: 5px;
+    }
+    
+    p#input_iconfirst{
+        width: 25%;
+    }
+    
+    /* RADIO INPUTS AND CONTAINERS */
+    
+    div.type_cont{
+        margin-bottom: 20px;
+    }
+    
+    div.radiocont{
+        display: flex;
+        margin-bottom: 10px;
+        width: 100%;
+        border: 1px solid hsl(202, 55%, 16%);
+        height: 40px;
+        border-radius: 5px;
+        align-items: center;
+    }
+    
+    input[type="radio"]{
+        display: block;
+        width: 15%;
+        height: 1.1rem;
+    }
+    
+    p.radio_label{
+        font-weight: bold;
+        color: hsl(202, 55%, 16%);
+    }
+    
+    /* CALC BUTTON */
+    
+    button#calc_btn{
+        width: 95%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: hsl(61, 70%, 52%);
+        margin: auto;
+    }
+    
+    p.calc_text{
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        color: hsl(202, 55%, 16%);
+    }
+    
+    /* OTHER ARTICLE */
+    
+    article#result_cont{
+        background-color: #133040;
+        display: flex;
+        justify-content: center;
+    }
+    
+    div.result_main{
+        width: 80%;
+        padding: 20px 0px;
+    }
+    
+    img.result_image{
+        display: block;
+        margin: auto;
+        width: 49%;
+    }
+    
+    p.result_title{
+        color: white;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    p.result_text{
+        color: hsla(202, 87%, 94%, 0.511);
+        text-align: center;
+        font-size: 14px;
+    }
 }
