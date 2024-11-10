@@ -16,8 +16,7 @@ body{
 }
 
 article#calc_cont{
-    height: 70vh;
-    padding: 30px 20px 0px;
+    padding: 20px;
 }
 
 div#title_container{
@@ -169,7 +168,6 @@ p.calc_text{
 /* OTHER ARTICLE */
 
 article#result_cont{
-    height: 100%;
     background-color: #133040;
     display: flex;
     justify-content: center;
