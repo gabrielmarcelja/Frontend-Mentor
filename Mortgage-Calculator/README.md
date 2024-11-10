@@ -1,2 +1,2 @@
 # Frontend Mentor - Mortgage repayment calculator
-# GITHUB PAGES: 
+# GITHUB PAGES: https://gabrielmarcelja.github.io/Frontend-Mentor/Mortgage-Calculator/
