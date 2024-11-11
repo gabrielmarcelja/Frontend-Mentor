@@ -17,8 +17,13 @@ body{
 
 @media (max-width: 800px){
 
+    body{
+        background-color: #133040;
+    }
+
     article#calc_cont{
         padding: 20px;
+        background-color: white;
     }
     
     div#title_container{
@@ -170,7 +175,6 @@ body{
     /* OTHER ARTICLE */
     
     article#result_cont{
-        background-color: #133040;
         display: flex;
         justify-content: center;
     }
