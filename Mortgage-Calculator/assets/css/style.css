@@ -57,7 +57,7 @@ body{
         border-radius: 5px;
     }
     
-    p.input_icon{
+    p.input_icon_first, .input_icon{
         width: 15%;
         height: 100%;
         background-color: hsl(202, 86%, 94%);

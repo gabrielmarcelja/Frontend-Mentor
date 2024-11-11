@@ -41,12 +41,12 @@
                     <!--  -->
                     <label class="form_lab">Mortgage Type</label>
                     <div class="type_cont">
-                        <div class="radiocont">
-                            <input type="radio" name="typeradio" value="radio_rapay">
+                        <div class="radiocont" id="radio_repaydiv">
+                            <input type="radio" name="typeradio" value="radio_rapay" id="radio_rapay">
                             <p class="radio_label">Repayment</p>
                         </div>
-                        <div class="radiocont">
-                            <input type="radio" name="typeradio" value="radio_interest">
+                        <div class="radiocont" id="radio_interestdiv">
+                            <input type="radio" name="typeradio" value="radio_interest" id="radio_interest">
                             <p class="radio_label">Interest Only</p>
                         </div>
                     </div>
@@ -65,5 +65,6 @@
             </div>
         </article>
     </section>
+    <script src="assets/scripts/radio_active.js"></script>
 </body>
 </html>
