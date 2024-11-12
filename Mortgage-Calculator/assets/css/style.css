@@ -202,4 +202,64 @@ body{
         text-align: center;
         font-size: 14px;
     }
+    
+    /* RESULT SHOW */
+
+   article#result_cont{
+        display: block;
+    }
+
+    div.result_main{
+        display: none;
+    }
+
+    div.result_show{
+        padding: 30px 20px 20px;
+    } 
+
+    p.result_title_show{
+        color: rgba(255, 255, 255, 0.867);
+        font-size: 29px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    p.res_show_desc{
+        color: rgba(255, 255, 255, 0.522);
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+
+    div.result_values_div{
+        border-top: 3px solid #D7D92A;
+        border-radius: 10px;
+        padding: 20px 10px;
+        background-color: #0E2431;
+    }
+
+    div.result_value_fdiv{
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.319);
+    }
+
+    p.result_value_text{
+        color: rgba(255, 255, 255, 0.582);
+        margin-bottom: 10px;
+    }
+
+    p.result_value_num{
+        color: #d6d92ac7;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    div.result_valuesdiv{
+        padding-top: 10px;
+    }
+
+    p.result_value_snum{
+        color: white;
+        font-size: 22px;
+        font-weight: bold;
+    }
 }

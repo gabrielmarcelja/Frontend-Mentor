@@ -217,4 +217,16 @@
         width: 80%;
         margin: auto;
     }
+
+    /* RESULT SHOW */
+
+    div.result_main{
+        visibility: hidden;
+    }
+
+    div.result_show{
+        border: 1px solid red;
+        height: 100%;
+    }
+    
 }
