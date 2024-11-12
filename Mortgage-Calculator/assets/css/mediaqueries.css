@@ -221,12 +221,54 @@
     /* RESULT SHOW */
 
     div.result_main{
-        visibility: hidden;
+        display: none;
     }
 
     div.result_show{
-        border: 1px solid red;
-        height: 100%;
+        padding: 30px;
     }
     
+    p.result_title_show{
+        color: rgba(255, 255, 255, 0.905);
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    p.res_show_desc{
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.527);
+    }
+
+    div.result_values_div{
+        background-color: #0E2431;
+        border-top: 3px solid #D7D92A;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    div.result_value_fdiv{
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+    }
+
+    p.result_value_text{
+        color: rgba(255, 255, 255, 0.601);
+        margin-bottom: 10px;
+    }
+
+    p.result_value_num{
+        color: rgba(255, 255, 0, 0.777);
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    div.result_valuesdiv{
+        padding-top: 20px;
+    }
+    p.result_value_snum{
+        color: rgba(255, 255, 255, 0.834);
+        font-size: 22px;
+        font-weight: bold;
+    }
 }
