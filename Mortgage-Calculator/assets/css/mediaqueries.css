@@ -118,6 +118,7 @@
         width: 60%;
         border: none;
         outline: none;
+        padding-left: 10px;
     }
 
     p.input_icon{
@@ -221,10 +222,11 @@
     /* RESULT SHOW */
 
     div.result_main{
-        display: none;
+        /* display: none; */
     }
 
     div.result_show{
+        display: none;
         padding: 30px;
     }
     

@@ -206,14 +206,15 @@ body{
     /* RESULT SHOW */
 
    article#result_cont{
-        display: block;
+        /* display: flex; */
     }
 
     div.result_main{
-        display: none;
+        /* display: none; */
     }
 
     div.result_show{
+        display: none;
         padding: 30px 20px 20px;
     } 
 
