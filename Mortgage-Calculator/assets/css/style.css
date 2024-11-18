@@ -39,9 +39,12 @@ body{
     button#clear_btn{
         border: none;
         background-color: white;
-        text-decoration: underline;
         font-weight: bold;
         color: hsl(200, 24%, 40%);
+    }
+
+    button#clear_btn:hover{
+        text-decoration: underline;
     }
     
     /* FIRST INPUT */
@@ -101,7 +104,11 @@ body{
         height: 40px;
         border-radius: 5px;
     }
-    
+
+    div.inpcont_conttwos:hover{
+        border:  1px solid black;
+    }
+
     input.input_conttwos{
         border: none;
         outline: none;
@@ -126,7 +133,7 @@ body{
     /* RADIO INPUTS AND CONTAINERS */
     
     div.type_cont{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     div.radiocont{
@@ -137,8 +144,13 @@ body{
         height: 40px;
         border-radius: 5px;
         align-items: center;
+        cursor: pointer;
     }
     
+    div.radiocont:hover{
+        border: 1px solid hsl(64, 100%, 33%);
+    }
+
     input[type="radio"]{
         display: block;
         width: 15%;
@@ -163,6 +175,11 @@ body{
         outline: none;
         background-color: hsl(61, 70%, 52%);
         margin: auto;
+        cursor: pointer;
+    }
+
+    button#calc_btn:hover{
+        background-color: hsla(61, 70%, 52%, 0.749);
     }
     
     p.calc_text{
@@ -262,5 +279,30 @@ body{
         color: white;
         font-size: 22px;
         font-weight: bold;
+    }
+
+    /* REQUIRED ERROR */
+    
+    span.required_error{
+        display: none;
+        position: absolute;
+        font-size: 14px;
+        color: #D63326;
+    }
+
+    span#iamount_required{
+        transform: translateY(-20px);
+    }
+
+    span#iterm_required{
+        transform: translateY(1px);
+    }
+
+    span#irate_required{
+        transform: translateY(1px);
+    }
+
+    span#iradio_required{
+        transform: translateY(-5px);
     }
 }

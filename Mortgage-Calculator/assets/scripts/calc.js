@@ -15,7 +15,6 @@ document.querySelector("#calc_btn").addEventListener("click", function(){
             irate = irate / 100;
             totalpayment = (iamount_inp * irate) * iterm_inp + iamount_inp;
             monthlyPayment = totalpayment / iterm_inp / 12;
-            // FORMATANDO NUMEROS
             totalpayment = totalpayment.toLocaleString('eng', {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
@@ -30,7 +29,6 @@ document.querySelector("#calc_btn").addEventListener("click", function(){
             totalMonths = iterm_inp * 12;
             monthlyPayment = iamount_inp * (irate * Math.pow(1 + irate, totalMonths)) / (Math.pow(1 + irate, totalMonths) - 1);
             totalpayment = monthlyPayment * totalMonths;
-            // FORMATANDO NUMEROS
             totalpayment = totalpayment.toLocaleString('eng', {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
@@ -42,10 +40,8 @@ document.querySelector("#calc_btn").addEventListener("click", function(){
             done = true;
         }
         if(done){
-            // ADICIONANDO VALORES NO HTML
             document.querySelector("p.result_value_num").innerHTML = '€' + monthlyPayment;
             document.querySelector("p.result_value_snum").innerHTML = '€' + totalpayment;
-            // MOSTRANDO ARTICLE
             document.querySelector("article#result_cont").style.display = 'flex';
             document.querySelector("div.result_main").style.display = 'none';
             document.querySelector("div.result_show").style.display = 'unset';
@@ -54,28 +50,36 @@ document.querySelector("#calc_btn").addEventListener("click", function(){
     if(!iamount_inp){
         document.querySelector(".input_icon_first").style.background = `#D63326`;
         document.querySelector(".input_icon_first").style.color = `white`;
+        document.querySelector('span#iamount_required').style.display = 'block';
     }else{
         document.querySelector(".input_icon_first").style.background = `hsl(202, 86%, 94%)`;
         document.querySelector(".input_icon_first").style.color = `hsl(202, 55%, 16%)`;
+        document.querySelector('span#iamount_required').style.display = 'none';
     }
 
     if(!iterm_inp){
         document.querySelector("#input_iconfirst").style.background = `#D63326`;
         document.querySelector("#input_iconfirst").style.color = `white`;
+        document.querySelector('span#iterm_required').style.display = 'block';
     }else{
         document.querySelector("#input_iconfirst").style.background = `hsl(202, 86%, 94%)`;
         document.querySelector("#input_iconfirst").style.color = `hsl(202, 55%, 16%)`;
+        document.querySelector('span#iterm_required').style.display = 'none';
     }
 
     if(!irate){
         document.querySelector("#input_iconttr").style.background = `#D63326`;
         document.querySelector("#input_iconttr").style.color = `white`;
+        document.querySelector('span#irate_required').style.display = 'block';
     }else{
         document.querySelector("#input_iconttr").style.background = `hsl(202, 86%, 94%)`;
         document.querySelector("#input_iconttr").style.color = `hsl(202, 55%, 16%)`;
+        document.querySelector('span#irate_required').style.display = 'none';
     }
 
     if(!typeradio){
-        // INPUT RADIO VAZIO
+        document.querySelector('span#iradio_required').style.display = 'block';
+    }else{
+        document.querySelector('span#iradio_required').style.display = 'none';
     }
 })  

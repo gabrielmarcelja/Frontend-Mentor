@@ -39,12 +39,15 @@
 
     button#clear_btn{
         background-color: white;
-        text-decoration: underline;
         font-size: 14px;
         font-weight: bold;
         border: none;
         outline: none;
         color: hsl(200, 24%, 40%);
+    }
+
+    button#clear_btn:hover{
+        text-decoration: underline;
     }
 
     /* form start */
@@ -66,6 +69,11 @@
         height: 40px;
         border-radius: 5px;
     }
+
+    div.input_cont:hover{
+        border: 1px solid black;
+    }
+
 
     p.input_icon_first{
         display: flex;
@@ -114,6 +122,10 @@
         border-radius: 5px;
     }
 
+    div.inpcont_conttwos:hover{
+        border:  1px solid black;
+    }
+
     input.input_conttwos{
         width: 60%;
         border: none;
@@ -135,7 +147,7 @@
     /* Radio Inputs */
 
     div.type_cont{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     div.radiocont{
@@ -147,6 +159,11 @@
         padding-left: 20px;
         align-items: center;
         margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    div.radiocont:hover{
+        border: 1px solid hsl(64, 100%, 33%);
     }
 
     input[type='radio']{
@@ -172,6 +189,11 @@
         background-color: hsl(61, 70%, 52%);
         font-weight: bold;
         color: hsl(202, 55%, 16%);
+        cursor: pointer;
+    }
+
+    button#calc_btn:hover{
+        background-color: hsla(61, 70%, 52%, 0.749);
     }
 
     p.calc_text{
@@ -273,4 +295,17 @@
         font-size: 22px;
         font-weight: bold;
     }
+
+    /* REQUIRED ERROR */
+
+    span.required_error{
+        display: none;
+        position: absolute;
+        font-size: 14px;
+        color: #D63326;
+    }
+    span#iradio_required{
+        transform: translateY(-6px);
+    }
+
 }
