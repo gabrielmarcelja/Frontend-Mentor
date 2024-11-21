@@ -7,12 +7,39 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <div id="menu_container">
+        <button id="menu_closebtn">
+            <img src="assets/images/icon-close.svg" alt="Close icon">
+        </button>
+        <div id="menu_itens_container">
+            <a href="#" class="mob_menuitem">Collections</a>
+            <a href="#" class="mob_menuitem">Men</a>
+            <a href="#" class="mob_menuitem">Women</a>
+            <a href="#" class="mob_menuitem">About</a>
+            <a href="#" class="mob_menuitem">Contact</a>
+        </div>
+    </div>
     <div id="cart_container">
         <div id="cart_header">
             Cart
         </div>
         <div id="cart_body">
-            
+            <div id="cart_empty">
+                Your cart is empty
+            </div>
+            <div id="cart_product-details_div">
+                <div id="cart_pdv">
+                    <img src="assets/images/image-product-1-thumbnail.jpg" alt="Product image" class="cart_pimg">
+                    <div id="cart_pdvc">
+                        <p class="cart_pn">Fall Limited Edition Sneakers</p>
+                        <p class="cart_pqtd">$125.00 x <span id="pqtdv">3</span> <span id="cpv">$375.00</span></p>
+                    </div>
+                    <button id="trash_btn">
+                        <img src="assets/images/icon-delete.svg" alt="Delete icon">
+                    </button>
+                </div>
+                <button id="ccbtn">Checkout</button>
+            </div>
         </div>
     </div>
     <nav>
@@ -32,6 +59,7 @@
         <div class="nav_container">
             <button id="cart_menu" class="nav_button">
                 <img src="assets/images/icon-cart.svg" alt="Cart icon" id="cart_menu-icon">
+                <span id="cart_icon_qtdv">3</span>
             </button>
             <img src="assets/images/image-avatar.png" alt="Profile picture" id="profile_img">
         </div>
