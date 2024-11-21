@@ -3,4 +3,4 @@
 ![Design preview ](./design/desktop-preview.jpg)
 
 # Live preview:
-https://gabrielmarcelja.github.io/Frontend-Mentor/Eccomerce-Product-Page/
+https://gabrielmarcelja.github.io/Frontend-Projects/Eccomerce-Product-Page/
