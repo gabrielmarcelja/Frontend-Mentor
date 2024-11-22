@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="menu_container">
+    <div id="menu_container" style="display: none;">
         <button id="menu_closebtn">
             <img src="assets/images/icon-close.svg" alt="Close icon">
         </button>
@@ -19,7 +23,7 @@
             <a href="#" class="mob_menuitem">Contact</a>
         </div>
     </div>
-    <div id="cart_container">
+    <div id="cart_container" style="display: none;">
         <div id="cart_header">
             Cart
         </div>
@@ -48,7 +52,7 @@
                 <img src="assets/images/icon-menu.svg" alt="Menu open icon">
             </button>
             <img src="assets/images/logo.svg" alt="Sneakers logo image" id="logo_img">
-            <div id="desk_menuitem_container">
+            <div id="desk_menuitem_container" style="display: none;">
                 <a href="#" class="desk_menuitem">Collections</a>
                 <a href="#" class="desk_menuitem">Men</a>
                 <a href="#" class="desk_menuitem">Women</a>
@@ -59,7 +63,7 @@
         <div class="nav_container">
             <button id="cart_menu" class="nav_button">
                 <img src="assets/images/icon-cart.svg" alt="Cart icon" id="cart_menu-icon">
-                <span id="cart_icon_qtdv">3</span>
+                <span id="cart_icon_qtdv">1</span>
             </button>
             <img src="assets/images/image-avatar.png" alt="Profile picture" id="profile_img">
         </div>
