@@ -1,4 +1,4 @@
-# Frontend Mentor - E-commerce product page
+# E-commerce product page
 
 ![Design preview ](./design/desktop-preview.jpg)
 
