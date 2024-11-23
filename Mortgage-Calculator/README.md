@@ -1,4 +1,4 @@
-# Frontend Mentor - Mortgage repayment calculator
+# Mortgage repayment calculator
 
 ![Design preview ](./design/desktop-design-completed.jpg)
 
