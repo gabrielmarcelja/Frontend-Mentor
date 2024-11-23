@@ -1,6 +1,10 @@
 /*------------------MOBILE---------------*/
 @media (max-width: 810px){
 
+    div#desk_menuitem_container{
+        display: none;
+    }
+
     div#menu_container{
         display: none;
         /* display: flex; */
