@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
