@@ -14,13 +14,17 @@ html,body{
 
 /*-----------------NAV-----------------*/
 
-nav{
+header{
+    height: 8vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 8vh;
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 button#menu_btn{
@@ -111,8 +115,7 @@ img.carrosel_img{
 /*----------------OTHERS ARTICLE---------------*/
 
 article#others_art{
-    height: 57vh;
-    padding: 20px;
+    padding: 20px 20px 70px 20px;
 }
 
 p.sneaker_comp{
