@@ -1,4 +1,4 @@
-# Frontend Mentor - Bento grid
+# Bento grid
 
 ![Design preview ](./design/desktop-design.jpg)
 
