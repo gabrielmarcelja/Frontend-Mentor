@@ -137,38 +137,46 @@
         font-weight: 600;
     }
 
+    div.price_mc{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }    
+
     div.price_container{
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding-bottom: 20px;
     }
 
     p.price_price{
-        color: black;
+        font-weight: 700;
         font-size: 32px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+        margin-right: 20px;
     }
 
     span#price_descont{
-        display: inline-block;
-        font-size: 18px;
-        color: white;
-        width: 50px;
+        width: 60px;
         background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 32px;
         border-radius: 5px;
-        font-weight: 600;
-        text-align: center;
-        transform: translateY(-5px);
-        margin-left: 10px;
+        font-weight: bold;
     }
 
     p.price_before{
-        color: gray;
-        font-weight: 700;
+        width: 100%;
+        display: block;
+        text-align: right;
+        font-size: 18px;
+        font-weight: bold;
         text-decoration: line-through;
+        color: gray;
     }
+
+    /* QTD CONTAINER */
 
     div.qtd_container{
         background-color: #F7F8FD;
