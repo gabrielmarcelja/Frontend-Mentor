@@ -99,7 +99,13 @@
         display: none;
     }
 
+    img#desktop_imgdom{
+        display: none;
+    }
 
+    div#carrosel_imgcontainer{
+        display: inline;
+    }
     /*----------------OTHERS ARTICLE---------------*/
 
     article#others_art{

@@ -79,10 +79,13 @@
         <article id="carrosel_art">
             <button id="left_arrow" class="arrow"><img src="assets/images/icon-previous.svg" alt="LEFT ARROW ICON"></button>
             <button id="right_arrow" class="arrow"><img src="assets/images/icon-next.svg" alt="RIGHT ARROW ICON"></button>
-            <img src="assets/images/image-product-1.jpg" alt="Product image" class="carrosel_img" id="carrosem_dom">
-            <img src="assets/images/image-product-2.jpg" alt="Product image" class="carrosel_img">
-            <img src="assets/images/image-product-3.jpg" alt="Product image" class="carrosel_img">
-            <img src="assets/images/image-product-4.jpg" alt="Product image" class="carrosel_img">
+            <img src="assets/images/image-product-1.jpg" id="desktop_imgdom">
+            <div id="carrosel_imgcontainer">
+                <img src="assets/images/image-product-1.jpg" alt="Product image" class="carrosel_img" id="carrosem_dom">
+                <img src="assets/images/image-product-2.jpg" alt="Product image" class="carrosel_img">
+                <img src="assets/images/image-product-3.jpg" alt="Product image" class="carrosel_img">
+                <img src="assets/images/image-product-4.jpg" alt="Product image" class="carrosel_img">
+            </div>
         </article>
         <article id="others_art">
             <p class="sneaker_comp">SNEAKER COMPANY</p>
@@ -91,9 +94,9 @@
                 <p class="sneaker_description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
             </div>
             <div class="price_container">
-                <p class="price_price">$125.00 <span id="price_descont">50%</span></p>
-                <p class="price_before">$250.00</p>
+                <p class="price_price">$125.00 </p><span id="price_descont">50%</span>
             </div>
+            <p class="price_before">$250.00</p>
             <div class="qtd_container">
                 <button id="minus_btn" class="qtd_btn">
                     <img src="assets/images/icon-minus.svg" alt="Minus icon">

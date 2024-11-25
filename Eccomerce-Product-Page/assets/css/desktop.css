@@ -77,4 +77,102 @@
         border-radius: 50%;
         border: 2px solid #FF7B11;
     }
+
+    /* ------------------------- */
+
+    section#main_sec{
+        display: flex;
+        padding: 50px 10vw;
+        height: calc(100vh - 100px);
+        align-items: center;
+    }
+
+    /* CARROSEL */
+    article#carrosel_art{
+        width: 50%;
+    }
+
+    button#left_arrow, button#right_arrow{
+        display: none;
+    }
+
+    img#desktop_imgdom{
+        display: block;
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+    div#carrosel_imgcontainer{
+        display: flex;
+        gap: 5%;
+    }
+
+    img.carrosel_img{
+        width: calc(65% / 4);
+        display: block;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* ------------------------ */
+    article#others_art{
+        width: 50%;
+    }
+
+    div.sneaker_detail_cont{
+        margin-bottom: 20px;
+    }
+
+    p.sneaker_comp{
+        font-size: 16px;
+        color: gray;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p.sneaker_name{
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    p.sneaker_description{
+        color: gray;
+    }
+
+    div.price_container{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+
+    p.price_price{
+        color: black;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    span#price_descont{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        width: 40px;
+        height: 20px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p.price_before{
+        font-weight: 800;
+        color: gray;
+        font-size: 14px;
+        text-decoration: line-through;
+    }
+
+    
 }
