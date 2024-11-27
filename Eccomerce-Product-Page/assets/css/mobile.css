@@ -38,6 +38,7 @@
     }
 
     span#cart_icon_qtdv{
+        display: none;
         position: absolute;
         transform: translate(-10px, -5px);
         width: 20px;

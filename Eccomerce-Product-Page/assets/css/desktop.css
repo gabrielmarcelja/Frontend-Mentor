@@ -3,10 +3,6 @@
         display: none;
     }
 
-    div#cart_container{
-        display: none;
-    }
-
     header{
         display: flex;
         align-items: center;
@@ -58,6 +54,7 @@
     }
 
     span#cart_icon_qtdv{
+        display: none;
         position: absolute;
         transform: translate(-10px, -5px);
         width: 20px;
