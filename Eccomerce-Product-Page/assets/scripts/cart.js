@@ -26,7 +26,6 @@ function open_cart(){
     }
 
 }
-    //FECHAR CARRINHO
     document.querySelector("div#cart_shadow").addEventListener("click", function(){
         document.querySelector("#cart_shadow").style.display = 'none';
         cart_container.style.display = 'none';
