@@ -19,9 +19,12 @@ function open_cart(){
         document.querySelector("div#cart_pdv").style.display = 'none';
         document.querySelector("div#cart_empty").style.display = 'flex';
         document.querySelector("#ccbtn").style.display = 'none';
+        document.querySelector("#cart_product-details_div").style.display = 'none';
     }
-    if(cart_container.style.display == 'block'){
-        document.querySelector("#main_sec").addEventListener("click", function(){
+
+    //FECHAR CARRINHO
+    if(cart_container.style.display = 'block'){
+        document.querySelector("section#main_sec").addEventListener("click", function(){
             cart_container.style.display = 'none';
         })
     }
