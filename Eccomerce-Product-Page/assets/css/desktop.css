@@ -112,6 +112,10 @@
         cursor: pointer;
     }
 
+    img.carrosel_img:hover{
+        opacity: 0.4;
+    }
+
     /* ------------------------ */
     article#others_art{
         width: 50%;
